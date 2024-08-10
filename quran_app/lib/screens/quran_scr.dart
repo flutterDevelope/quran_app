@@ -36,6 +36,7 @@ class _QuranScreenState extends State<QuranScreen> {
                       return Padding(
                         padding: const EdgeInsets.all(12.0),
                         child: RichText(
+                          textAlign: TextAlign.justify,
                           text: TextSpan(
                             children: [
                               TextSpan(
